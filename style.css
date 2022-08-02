@@ -1,0 +1,29 @@
+*{
+    padding: 20px;
+}
+
+html,body{
+    padding: 0px;
+    margin: 0px;
+}
+header {
+    background-color: red
+}
+nav {
+    background-color: orange
+}
+main {
+    background-color: yellow
+}
+article {
+    background-color: green
+}
+section {
+    background-color: blue
+}
+aside {
+    background-color: indigo
+}
+footer {
+    background-color: purple
+}

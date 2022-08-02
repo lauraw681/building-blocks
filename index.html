@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <a href="/">Name of Website</a>
+            <nav>
+                <ul> 
+                    <li><a href="">Link 1></a></li>
+                    <li><a href="">Link 2></a></li>
+                    <li><a href="">Link 3></a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <article>
+                <h1>Page Title</h1>
+                <button id="my-button">click me</button>
+                <section>
+                    <h2>Heading 2</h2>
+                    <h3>Heading 3</h3>
+                    <p>This is a paragraph.</p>
+                    <ul> 
+                        <li><a href="">Link 4></a></li>
+                        <li><a href="">Link 5></a></li>
+                        <li><a href="">Link 6></a></li>
+                    </ul>
+                    <img src="image.jpg" alt="alt text" width="500 px" height="500 px" />
+                    <a href="">link 7></a>
+                </section>
+            </article>
+            <aside>
+                    <ul> 
+                        <li><a href="">Link 8></a></li>
+                        <li><a href="">Link 9></a></li>
+                        <li><a href="">Link 10></a></li>
+                    </ul>   
+            </aside>
+        </main>
+        <footer>
+                <ul> 
+                    <li><a href="">Link 11></a></li>
+                    <li><a href="">Link 12></a></li>
+                    <li><a href="">Link 13></a></li>
+                </ul>   
+        </footer>
+        <script>
+            document.getElementById("my-button").addEventListener("click", handle_button_click);
+
+            function handle_button_click(){
+                 alert("I am an alert");
+                }
+
+        </script>
+    </body>
+</html>
